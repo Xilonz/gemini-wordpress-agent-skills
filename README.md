@@ -4,7 +4,17 @@ This directory contains the repackaged WordPress Agent Skills as a Gemini CLI ex
 
 ## Installation
 
-You can install this extension locally using the Gemini CLI:
+You can install this extension directly from GitHub using the Gemini CLI:
+
+```bash
+gemini extensions install https://github.com/Xilonz/gemini-wordpress-agent-skills
+```
+
+## Development
+
+### Local Installation
+
+You can also install this extension locally for development:
 
 ```bash
 gemini extensions install .
