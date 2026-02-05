@@ -28,8 +28,14 @@ jobs:
           repository: WordPress/agent-skills
           path: source-repo
 
-      - name: Build Skills
-        run: node scripts/build-skills.mjs --source=./source-repo/skills
+      - name: Build Skills (Upstream)
+        run: |
+          cd source-repo
+          npm install
+          node shared/scripts/skillpack-build.mjs --targets=claude
+
+      - name: Build Extension
+        run: node scripts/build-skills.mjs --source=./source-repo/dist/claude/.claude/skills
 
       - name: Cleanup Source
         run: rm -rf source-repo
