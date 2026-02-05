@@ -1,0 +1,15 @@
+{
+    "name": "wordpress-agent-skills-extension",
+    "version": "1.0.0",
+    "description": "Gemini CLI extension for WordPress Agent Skills",
+    "files": [
+        "gemini-extension.json",
+        "GEMINI.md",
+        "skills"
+    ],
+    "keywords": [
+        "gemini-extension",
+        "wordpress",
+        "agent-skills"
+    ]
+}

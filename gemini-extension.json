@@ -1,0 +1,7 @@
+{
+    "name": "wordpress-agent-skills",
+    "version": "1.0.0",
+    "description": "Agent Skills for WordPress development: Best practices, guardrails, and workflows for AI coding assistants.",
+    "publisher": "WordPress",
+    "icon": "icon.png"
+}
